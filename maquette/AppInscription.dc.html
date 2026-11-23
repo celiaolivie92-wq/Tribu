@@ -39,7 +39,7 @@ a{color:#5B3FA8}a:hover{color:#432C82}
 <div style="flex: 1 1 auto; padding: 20px; display: flex; flex-direction: column; gap: 20px">
 <div style="display: flex; flex-direction: column; gap: 8px">
 <h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15; letter-spacing: -0.5px">Où habitez-vous ?</h1>
-<p style="margin: 0; font-size: 16px; color: #5B5670">Pour vous proposer un cercle de mamans près de chez vous.</p>
+<p style="margin: 0; font-size: 16px; color: #5B5670">Pour vous proposer une tribu de mamans près de chez vous.</p>
 </div>
 <div style="display: flex; flex-direction: column; gap: 6px">
 <label for="cp-app" style="font-size: 14px; font-weight: 600">Code postal</label>
@@ -76,7 +76,7 @@ a{color:#5B3FA8}a:hover{color:#432C82}
 <div style="flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 22px">
 <div style="display: flex; flex-direction: column; gap: 8px">
 <h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15; letter-spacing: -0.5px">Parlez-nous de vous</h1>
-<p style="margin: 0; font-size: 16px; color: #5B5670">Quelques mots pour que votre cercle vous découvre. Tout est facultatif.</p>
+<p style="margin: 0; font-size: 16px; color: #5B5670">Quelques mots pour que votre tribu vous découvre. Tout est facultatif.</p>
 </div>
 <div style="display: flex; flex-direction: column; gap: 10px">
 <span style="font-size: 15px; font-weight: 600">Vos passions</span>
@@ -105,7 +105,7 @@ a{color:#5B3FA8}a:hover{color:#432C82}
 <div style="background: #F5F2FB; border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
 <div style="display: flex; flex-direction: column; gap: 2px">
 <span style="font-size: 15px; font-weight: 600">Vos enfants (facultatif)</span>
-<span style="font-size: 13px; color: #5B5670">Visible uniquement par votre cercle.</span>
+<span style="font-size: 13px; color: #5B5670">Visible uniquement par votre tribu.</span>
 </div>
 <div style="display: flex; align-items: center; justify-content: space-between">
 <span style="font-size: 15px">Nombre d'enfants</span>
@@ -130,7 +130,7 @@ a{color:#5B3FA8}a:hover{color:#432C82}
 <sc-if value="{{isStep4}}" hint-placeholder-val="{{false}}">
 <div style="flex: 1 1 auto; padding: 20px; display: flex; flex-direction: column; gap: 20px">
 <div style="display: flex; flex-direction: column; gap: 8px">
-<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15; letter-spacing: -0.5px">Votre cercle vous attend</h1>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15; letter-spacing: -0.5px">Votre tribu vous attend</h1>
 <p style="margin: 0; font-size: 16px; color: #5B5670">Des mamans près de chez vous, qui vivent des choses proches des vôtres.</p>
 </div>
 <div style="border: 1px solid #E6E0F3; border-radius: 20px; padding: 18px; display: flex; flex-direction: column; gap: 14px">
@@ -141,7 +141,7 @@ a{color:#5B3FA8}a:hover{color:#432C82}
 <span style="width: 40px; height: 40px; border-radius: 50%; background: #F9E3A8; border: 3px solid #FFFFFF; margin-left: -12px"></span>
 </div>
 <div style="display: flex; flex-direction: column; gap: 2px">
-<strong style="font-size: 18px">Cercle Paris 11e – Oberkampf</strong>
+<strong style="font-size: 18px">Tribu Paris 11e – Oberkampf</strong>
 <span style="font-size: 14px; color: #5B5670">9 mamans · {{commonText}}</span>
 </div>
 <sc-if value="{{hasCommonPassion}}" hint-placeholder-val="{{false}}">
@@ -151,14 +151,14 @@ a{color:#5B3FA8}a:hover{color:#432C82}
 </div>
 <label style="display: flex; gap: 12px; align-items: flex-start; font-size: 14px; color: #1F1A2E; cursor: pointer">
 <input type="checkbox" style="width: 22px; height: 22px; margin: 0; accent-color: #5B3FA8; flex: 0 0 auto">
-<span>J'adhère à la charte de bienveillance : écoute, respect et confidentialité. Ce qui se dit dans le cercle reste dans le cercle.</span>
+<span>J'adhère à la charte de bienveillance : écoute, respect et confidentialité. Ce qui se dit dans la tribu reste dans la tribu.</span>
 </label>
 </div>
 </sc-if>
 
 <div style="flex: 0 0 auto; padding: 12px 20px 28px; border-top: 1px solid #F0ECF8">
 <sc-if value="{{isStep4}}" hint-placeholder-val="{{false}}">
-<a href="AppCercle.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 54px; border-radius: 16px; background: #5B3FA8; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Rejoindre mon cercle</a>
+<a href="AppCercle.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 54px; border-radius: 16px; background: #5B3FA8; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Rejoindre ma tribu</a>
 </sc-if>
 <sc-if value="{{notStep4}}" hint-placeholder-val="{{true}}">
 <button type="button" onClick="{{next}}" style="width: 100%; min-height: 54px; border-radius: 16px; border: none; background: #5B3FA8; color: #FFFFFF; font: inherit; font-size: 17px; font-weight: 600; cursor: pointer">Continuer</button>
@@ -229,7 +229,7 @@ canGoBack: step > 1,
 showError: this.state.showError,
 commonText: topicCount > 0 ? 'des sujets en commun avec vous' : 'près de chez vous',
 hasCommonPassion: myPassions.length > 0,
-commonPassionText: myPassions.length > 0 ? '3 mamans du cercle aiment aussi : ' + myPassions.slice(0, 2).join(', ') : '',
+commonPassionText: myPassions.length > 0 ? '3 mamans de la tribu aiment aussi : ' + myPassions.slice(0, 2).join(', ') : '',
 next: function () {
 if (step === 2 && topicCount === 0) { self.setState({ showError: true }); return; }
 self.setState({ step: Math.min(step + 1, 4), showError: false });
